@@ -1,0 +1,37 @@
+.icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.3s linear;
+
+  &_rs-school {
+    width: 8rem;
+    height: 3rem;
+    background-image: url(./assets/svg/rs_school.svg);
+    &:hover {
+      filter: drop-shadow(0px 0px 4px $color-secondary);
+    }
+  }
+
+  &_github {
+    width: 5rem;
+    height: 5rem;
+    background-image: url(./assets/svg/github.svg);
+    justify-self: flex-end;
+    &:hover {
+      filter: drop-shadow(0px 0px 4px $color-secondary);
+    }
+  }
+  
+  &_home {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(./assets/svg/home.svg);
+  }
+}
+
+.home-item {
+  padding: 0.5rem;
+  cursor: pointer;
+}

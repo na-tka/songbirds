@@ -1,0 +1,11 @@
+{
+  "name": "songbirds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/main.scss styles.css"
+  },
+  "author": "Natallia Tkachova",
+  "license": "ISC"
+}

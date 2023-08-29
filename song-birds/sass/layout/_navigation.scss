@@ -1,0 +1,50 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 3px 3px #222);
+  }
+
+  &__item {
+    background-color: $color-first;
+    display: flex;
+    align-items: center;
+    margin-right: 0.4rem;
+    transition: all 0.3s linear;
+    text-shadow: -1px -1px #000, 0 1px 0 #444;;
+    &:hover {
+      background-color: $color-alert;
+    }
+  }
+
+  &__button {
+    font-size: 1.6rem;
+    color: $color-light;
+    font-family: "Open Sans";
+    font-weight: 500;
+    cursor: pointer;
+    text-shadow: -1px -1px #000, 0 1px 0 #444;
+  }
+}
+
+.lang {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__item {
+    background-color: $color-first;
+    margin-left: 0.4rem;
+    filter: drop-shadow(0px 3px 3px #222);
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: $color-alert;
+    }
+  }
+
+}
